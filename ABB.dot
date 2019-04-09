@@ -1,0 +1,20 @@
+digraph BINARIO {
+node [fontname="Arial", color=gray30, style=	rounded];
+"AX110" -> "AX109";
+"AX109" -> "AX104";
+"AX104" -> "AX103";
+"AX103" -> "";
+"AX104" -> "AX105";
+"AX110" -> "AX115";
+"AX115" -> "AX114";
+"AX114" -> "AX113";
+"AX113" -> "AX111";
+"AX111" -> "AX112";
+"AX115" -> "AX116";
+"AX116" -> "AX118";
+"AX118" -> "AX117";
+"AX118" -> "AX120";
+"AX120" -> "AX119";
+"AX120" -> "AX122";
+"AX122" -> "AX124";
+}
